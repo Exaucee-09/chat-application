@@ -1,0 +1,35 @@
+{
+  "name": "chat-application",
+  "version": "1.0.0",
+  "description": "A Full-Featured Chat Application built using the MERN Stack (MongoDB, Express.js, React, Node.js), with JWT-based authentication and real-time communication powered by Socket.io",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Exaucee-09/chat-application.git"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Exaucee-09/chat-application/issues"
+  },
+  "homepage": "https://github.com/Exaucee-09/chat-application#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.10.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
